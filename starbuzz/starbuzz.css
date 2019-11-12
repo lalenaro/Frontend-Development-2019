@@ -1,0 +1,22 @@
+body{
+  background-color: tan;
+  font-family:sans-serif;
+
+}
+h1,h3{
+  color:green;
+  font-family: cursive;
+}
+h1 {
+  font-size:2em;
+}
+h3 {
+  color:saddlebrown;
+}
+
+span {
+  color: green;
+}
+#special {
+  color:brown;
+}
