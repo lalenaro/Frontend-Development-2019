@@ -1,11 +1,37 @@
+body {
+    height:2000px;
+}
+.container {
+    width:300px;
+    background-color: goldenrod;
+    position:relative;
+    left: 30%;
+    top:50px;
+}
 div div{
     width: 100px;
     height: 100px;
     text-align:center;
+    vertical-align:middle;
+    line-height:100px;
 }
 div div:first-child {
     background-color:pink;
+    position:absolute;
+    right:20px;
+    top:20px;
+
 }
 div div:last-child {
     background-color: blueviolet;
+    position:relative;
+    bottom: 30px;
+    left:35%;
+}
+
+div div:nth-child(2){
+    background-color: red;
+    position:fixed;
+    top: 40%;
+    left: 50%;
 }
