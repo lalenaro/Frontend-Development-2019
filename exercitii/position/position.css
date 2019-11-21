@@ -1,0 +1,11 @@
+div div{
+    width: 100px;
+    height: 100px;
+    text-align:center;
+}
+div div:first-child {
+    background-color:pink;
+}
+div div:last-child {
+    background-color: blueviolet;
+}
