@@ -1,0 +1,10 @@
+div.float {
+    float:left;
+    height:100px;
+    width:450px;
+    background-color:grey;
+}
+div.normal {
+    color: blue;
+    border: 2px solid rebeccapurple;
+}
