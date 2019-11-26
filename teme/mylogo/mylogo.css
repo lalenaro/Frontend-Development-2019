@@ -1,7 +1,11 @@
+* {
+    box-sizing: border-box;
+}
 body{
     box-sizing: border-box;
     background-color: rgba(41, 26, 3);
 }
+
 main{
     width: 60%;
     margin:auto;
@@ -53,6 +57,7 @@ aside{
     width: 20%;
     height: 300px;
     background-color: darkolivegreen;
+    padding:5px;
     float:left;
 }
 aside ul {
