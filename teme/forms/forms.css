@@ -1,0 +1,51 @@
+*{
+    box-sizing:border-box;
+}
+div {
+    width: 35%;
+    float:right;
+    margin-top:2%;
+}
+h1 {
+    font-size: 1.8em;
+    color: rgb(59, 59, 59);
+}
+form {
+    width:80%;
+    padding-right: 20px;
+    text-align: left;
+}
+label {
+    display:inline-block;
+    padding-top: 7px;
+    font-size:0.9em;
+    font-family: 'IBM Plex Mono', monospace;
+    color: rgb(117, 117, 117);
+}
+input, textarea {
+    display:block;
+    width:100%;
+    border: none;
+    border-bottom: 2px solid rgba(209, 208, 208, 0.534);
+    padding: 14px 0px;
+    text-align: left;
+    font-size:1em;
+}
+input[type=submit] {
+    display:block;
+    width:40%;
+    float:right;
+    margin-right: 10%;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 0.7em;
+    border-radius: 50px;
+    background: rgb(213,8,120);
+    background: linear-gradient(90deg, rgba(213,8,120,1) 0%, rgba(231,5,89,1) 42%, rgba(255,0,78,1) 100%);
+}
+::placeholder {
+    color: rgb(190, 188, 188);
+    opacity: 0.5;
+}
