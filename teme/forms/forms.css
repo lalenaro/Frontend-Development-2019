@@ -31,6 +31,9 @@ input, textarea {
     text-align: left;
     font-size:1em;
 }
+textarea {
+    resize:none;
+}
 input[type=submit] {
     display:block;
     width:40%;
