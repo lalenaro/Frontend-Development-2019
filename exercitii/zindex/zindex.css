@@ -1,0 +1,24 @@
+div:first-child {
+    background-color: rgb(255, 140, 0, 0.7);
+    width:20%;
+    height:20%;
+    position:absolute;
+    top:20%;
+    left:20%;
+    opacity:0.5;
+    
+}
+div:nth-child(2) {
+    background-color:rgb(144, 35, 199);
+    width:20%;
+    height:20%;
+    position:absolute;
+    top:25%;
+    left:25%;
+}
+div:nth-child(3) {
+    position:relative;
+    margin-top:30%;
+    z-index:2;
+    width:50%;
+}
