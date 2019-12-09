@@ -5,10 +5,10 @@
 }
 body {
     font-family:sans-serif;
-    --orangecolor:rgb(203, 113, 48);
+    --orangecolor:rgb(228, 168, 40);
 }
 nav {
-    background-color:rgb(203, 113, 48);
+    background-color:rgb(241, 177, 58);
     text-align: right;
 }
 nav li:first-child {
