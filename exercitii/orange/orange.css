@@ -5,10 +5,15 @@
 }
 body {
     font-family:sans-serif;
-    --orangecolor:rgb(228, 168, 40);
+    --orangecolor:rgb(252, 155, 27);
 }
+a {
+    text-decoration: none;
+    color:white;
+}
+/* Styling Home */
 nav {
-    background-color:rgb(241, 177, 58);
+    background-color:rgb(243, 115, 30);
     text-align: right;
 }
 nav li:first-child {
@@ -19,10 +24,7 @@ li {
     padding: 1.5%;
     font-size:1em;
 }
-a {
-    text-decoration: none;
-    color:white;
-}
+
 #home {
     background-image: url(headerback.jpg);
     height:100vh;
@@ -67,3 +69,89 @@ input[type="button"] {
     border-radius:5px;
     padding:0.3em;
 }
+/* Styling About Me  */
+#container-about {
+    text-align:center;
+    
+}
+h2 {
+    font-size:3em;
+    text-align: center;
+    color: var(--orangecolor);
+    padding:2em;
+}
+h3{
+    color:rgb(117, 170, 190);
+    padding-bottom: 1em;
+    padding-left:0.5em;
+    padding-top:0.7em;
+    font-size:2em;
+}
+#container-about figure {
+   float:left;
+   width: 30%;
+   text-align:center;
+   margin-left:10%;
+   border-right:4px solid rgb(117, 170, 190);
+}
+#container-about img {
+    border-radius: 50%;
+}
+figcaption {
+    color:grey;
+    font-size:1em;
+}
+#container-djon {
+   vertical-align: center;
+    text-align:left;
+    margin-left:42%;
+    width: 50%;
+    
+}
+#container-djon p{
+    padding-left:0.5em;
+    line-height: 2em;
+    font-size: 1em;
+    color: rgb(88, 88, 85);
+
+}
+/* Styling team */
+#team {
+    height: 100vh;
+}
+#container-img {
+    text-align: center;
+}
+.member-team {
+    display:inline-block;
+    margin:0.6em;
+    position:relative;
+}
+
+
+.member-team div, #member-team img {
+    position:absolute;
+    width:100%;
+    
+}
+.member-team div {
+    background-color:var(--orangecolor); 
+    bottom:7%;
+    font-size:1.3em;
+    color:white;
+    border-radius:0% 90% 0% 0%;
+    padding:0.5%;
+}
+.member-team figcaption{
+    text-align: left;
+    color:grey;
+    font-size:1em;
+    font-style:bold;
+}
+
+
+
+
+
+
+
