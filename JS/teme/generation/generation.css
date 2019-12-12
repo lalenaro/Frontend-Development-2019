@@ -1,0 +1,26 @@
+*{
+    box-sizing:border-box;
+}
+article {
+    text-align: center;
+    margin:10%;
+}
+img {
+    width:60%;
+}
+input {
+    width:20%;
+    height:3em;
+    border: 0.5px solid greenyellow;
+    font-size: 1.5em;
+    padding: 3px;
+    text-align:center;
+}
+div {
+    font-size: 2.5em;
+    color: green;
+    padding:10px;
+}
+span {
+    color: rgb(114, 40, 114);
+}
