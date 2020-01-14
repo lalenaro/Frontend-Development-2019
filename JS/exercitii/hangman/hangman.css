@@ -93,7 +93,11 @@ body {
     
 }
 .human {
-    display:none;
+    visibility: hidden;
+}
+
+#letters {
+    font-size:2em;
 }
 
 
