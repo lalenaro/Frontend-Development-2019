@@ -1,0 +1,16 @@
+nav {
+    background-color: darkgreen;
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+div:first-child {
+    background-color: blueviolet;
+}
+div:nth-child(2) {
+    background-color: cadetblue;
+}
+div:last-child {
+    background-color: darkgoldenrod;
+}
