@@ -1,0 +1,14 @@
+.grid {
+    display:grid;
+    grid-template-columns:repeat(7, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    width:400px;
+    height:400px;
+}
+
+.grid div:nth-child(even) {
+    background-color: powderblue;
+}
+.grid div:nth-child(odd) {
+    background-color: black;
+}

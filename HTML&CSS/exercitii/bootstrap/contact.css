@@ -1,0 +1,14 @@
+.title {
+    color: orange;
+    font-size:2em;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    text-align:center;
+}
+input[type="submit"] {
+    background-color: orange;
+}
+input {
+    margin:1em 0;
+}
