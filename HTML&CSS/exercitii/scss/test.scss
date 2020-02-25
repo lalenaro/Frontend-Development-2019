@@ -1,0 +1,25 @@
+@import 'var';
+
+nav {
+    ul {
+        background-color: gainsboro;
+       
+        padding: $default_padding;
+        li {
+            display:inline-block;
+
+        }
+        a{
+            text-decoration:none;
+            color:$secondary_color;
+            padding:$default_padding + 2px;
+        }
+    }
+}
+button {
+    background-color:$color;
+}
+h1 {
+    color:$color;
+}
+
