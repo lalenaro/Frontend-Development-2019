@@ -1,0 +1,11 @@
+.parallax {
+    width: 100%;
+    height: 500px;
+    background-image: url("photographer.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+p {
+    background:transparent;
+    font-size:1.3em;
+}

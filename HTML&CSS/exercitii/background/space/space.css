@@ -1,0 +1,15 @@
+body {
+    background-image: url("rocket.png"),url("earth.png"), url("space2.png");
+    background-size: auto, 20%, auto;
+    background-repeat: no-repeat, no-repeat, repeat;
+    background-position: 30% 20%, center, 0 center;
+    height:100vh;
+    animation-name: warp;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+@keyframes warp {
+    to {background-position: 30% 20%, center, -1024px center;}
+}
