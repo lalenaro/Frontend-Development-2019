@@ -1,0 +1,37 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width:100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    perspective: 8px;
+    perspective-origin: 50%;
+}
+.front {
+    position: absolute;
+    top:45%;
+    left:30%;
+    font-size: 35px;
+    transform: translateZ(3px) scale(0.625);
+}
+    
+.back {
+    transform: translateZ(0px);
+}
+.gear {
+    position: absolute;
+    top: 60%;
+    right:30%;
+    transform: translateZ(4px) scale(0.5);
+}
+.gear img {
+    width:150px;
+}
+

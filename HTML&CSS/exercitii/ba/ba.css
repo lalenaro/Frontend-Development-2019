@@ -12,21 +12,31 @@ a {
     color:goldenrod;
     font-size: 1.5em;
     font-family: Futura;
+    position:relative;
 }
 
-a:hover::after {
+a::after {
     content:"";
     display:block;
     height:3px;
     background-color: hotpink;
-    width: 0em;
-    animation-name: grow;
+    /* width: 0em; */
+    transform: scaleX(0);
+    transition: transform 0.3s;
+    width: 100%;
+    position: absolute;
+    /* animation-name: grow;
     animation-duration: 1s;
-    animation-fill-mode: forwards;
+    animation-fill-mode: forwards; */
 }
-@keyframes grow {
+/* @keyframes grow {
     to {
         width:4em;
     }
+
+} */
+
+a:hover::after {
+    transform:scaleX(1);
 
 }
