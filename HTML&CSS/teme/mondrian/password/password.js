@@ -21,14 +21,20 @@ function checkPassWord(password) {
     switch(strength) {
         case 0: strengthBar.value = 0;
                 spanColor.style.color = 'red';
+                // strengthBar.style.color ='orange';
                 break
-        case 1: strengthBar.value = 40;
-                spanColor.style.color = 'yellow';
-                document.querySelector('progress').style.color ='yellow';
+        case 1: strengthBar.value = 20;
+                spanColor.innerText = 'weak';
+                spanColor.style.color = 'blue';
+                // strengthBar.style.color ='violet';
                 break
-        case 2: strengthBar.value = 80;
+        case 2: strengthBar.value = 60;
+                spanColor.innerText = 'good';
+                spanColor.style.color = 'brown';
+                // strengthBar.style.color ='lightblue';
                 break
         case 3: strengthBar.value = 100;
+                spanColor.innerText = 'strong!';
                 break
             }
 }
