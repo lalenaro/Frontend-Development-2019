@@ -1,0 +1,9 @@
+div {
+    background-color: lightcoral;
+    width: 20vh;
+    height: 20vh;
+    position:absolute;
+    top:20%;
+    left:40%;
+    border-radius: 10px;
+}

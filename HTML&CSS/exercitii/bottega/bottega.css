@@ -5,30 +5,109 @@
     padding: 0;
     margin: 0;
 }
-
-
-main {
+.welcome, .portofolio {
+    position: fixed;
+    top:0;
+    left:0;
     width:100vw;
     height:100vh;
+    
+}
+.welcome {
+    z-index:1;
     background-color: black;
     background-image: url('1.jpg');
     background-position: center;
     background-repeat: no-repeat;
+    background-size: contain; 
     display:flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    transition-duration: 2s;
+    transition-property: left;
 }
 
-.title {
+.portofolio {
+    z-index:0;
+    background-color: rgb(205, 92, 92);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+   
+
+} 
+.pictures {
+    width:60%;
+    text-align:center;
+
+
+}
+.portofolio .pictures img {
+    width:200px;
+    height:300px;
+    
+}
+
+
+ .title {
+    margin-top: 1.5em;
     font-family: 'Libre Baskerville', sans-serif;
-    font-size: 7em;
+    font-size: 5em;
     font-weight: 900;
     color:white;
-}
-.enter {
+ }
+
+.enter, .back {
     font-family: sans-serif;
     color:white;
     font-size: 3em;
-    text-align: center;
     margin-top:1.5em;
+    position:relative;
+    cursor:pointer;
+}
+.enter::after, .back::after {
+    content:'';
+    display:block;
+    position:absolute;
+    bottom:0;
+    height:3px;
+    background-color: white;
+    width:0;
+    /* transition-property: width; */
+    transition-duration: 0.5s;
+   
+}
+.enter:hover::after, .back:hover::after {
+    width:100%; 
+}
+
+
+@keyframes bounce {
+    from{
+        color:white;
+        top:0px;
+    }
+    to{
+        color:black;
+        top:-0.7em;
+    }
+}
+.title span {
+    position:relative;
+}
+.title span.bounce{
+    animation-name:bounce;
+    animation-duration:0.5s;
+    animation-iteration-count: 2;
+    animation-direction:alternate;
+}
+
+.slide-out {
+    left:100vw;
+
+}
+.slide-in {
+    left:0;
 }
